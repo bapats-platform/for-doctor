@@ -20,9 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60096cbb-1d08-4ef7-b1af-fef1f72ae0d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/main_logo1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/main_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/main_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +46,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/fonts" />
+      <recent name="$PROJECT_DIR$/css" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
@@ -57,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601906460736</updated>
       <workItem from="1601906462549" duration="1714000" />
-      <workItem from="1601908190780" duration="244000" />
+      <workItem from="1601908190780" duration="824000" />
+      <workItem from="1601909180324" duration="2796000" />
     </task>
     <servers />
   </component>
@@ -75,5 +86,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="473" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601908926369">
+      <screen x="0" y="23" width="1440" height="827" />
+    </state>
+    <state x="473" y="193" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.827@0.23.1440.827" timestamp="1601908926369" />
   </component>
 </project>
