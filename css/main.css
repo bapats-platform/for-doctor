@@ -97,6 +97,7 @@ iframe {
 
 .container-table100 {
   width: 100%;
+  min-width:0; /*huawei1022*/
   min-height: 100vh;
   background: #c4d3f6;
 
@@ -112,7 +113,7 @@ iframe {
 }
 
 .wrap-table100 {
-  width: 960px;
+  width: 1000px; /*huawei1022:960 ->1000*/
   border-radius: 10px;
   overflow: hidden;
 }
@@ -121,7 +122,18 @@ iframe {
   width: 100%;
   display: table;
   margin: 0;
+  /*huawei1022-searchbar-rightalign*/
+/*  display: flex;
+  flex-direction: column;
+  align-items: flex-end;*/
 }
+
+/*huawei1022-searchbar*/
+/*.searchbar {
+  color: #6c7ae0;
+  background: #ffffff;
+  }  
+*/
 
 @media screen and (max-width: 768px) {
   .table {
@@ -201,8 +213,9 @@ iframe {
   padding-bottom: 19px;
 }
 
+/*huawei:width of each column*/
 .row .cell:nth-child(1) {
-  width: 360px;
+  width: 200px;
   padding-left: 40px;
 }
 
@@ -211,13 +224,20 @@ iframe {
 }
 
 .row .cell:nth-child(3) {
-  width: 250px;
+  width: 200px;
 }
 
 .row .cell:nth-child(4) {
-  width: 190px;
+  width: 130px;
 }
 
+.row .cell:nth-child(5) {
+  width: 200px;
+}
+
+.row .cell:nth-child(6) {
+  width: 100px;
+}
 
 .table, .row {
   width: 100% !important;
@@ -259,3 +279,5 @@ iframe {
     width: 100% !important;
   }
 }
+
+
